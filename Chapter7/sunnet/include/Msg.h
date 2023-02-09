@@ -2,6 +2,8 @@
 #include <memory>
 using namespace std; 
 
+#include "pthread_spin.h"
+
 //消息基类
 class BaseMsg {
 public:
